@@ -1,0 +1,46 @@
+.try {
+  padding-bottom: clamp(1.875rem, 1.179rem + 2.857vw, 3.75rem);
+}
+.try__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+.try__image img {
+  background: url(../img/Ellipse-try.svg) center (center/cover) no-repeat;
+  width: clamp(21.875rem, 16.512rem + 22vw, 36.313rem);
+}
+.try__text {
+}
+.try__title {
+  color: #ffb800;
+  font-size: clamp(2rem, 1.257rem + 3.048vw, 4rem);
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Gilroy", sans-serif;
+  font-weight: 800;
+  line-height: clamp(2.813rem, 2.371rem + 1.81vw, 4rem);
+  padding-bottom: 24px;
+}
+.try__descr {
+  color: #fff;
+  font-size: clamp(1.125rem, 1.079rem + 0.19vw, 1.25rem);
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Gilroy", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  padding-bottom: 40px;
+}
+.second-circle {
+}
+.try-btn {
+}
+@media screen and (max-width: 1000px) {
+  .try__wrapper {
+    flex-direction: column;
+  }
+}

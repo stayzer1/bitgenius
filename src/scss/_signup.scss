@@ -1,0 +1,40 @@
+.signup__title {
+  color: #ffb800;
+  font-size: clamp(2.375rem, 1.771rem + 2.476vw, 4rem);
+  font-style: normal;
+  margin-top: 0;
+  text-align: center;
+  font-family: "Gilroy", sans-serif;
+  font-weight: 800;
+  line-height: clamp(3.375rem, 3.143rem + 0.952vw, 4rem);
+}
+.signup__descr {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  margin-top: 0;
+  text-align: center;
+  font-family: "Gilroy", sans-serif;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 24px;
+  padding-bottom: 30px;
+}
+.signup-btn {
+  text-align: center;
+}
+.signup__wrapper {
+  padding-top: clamp(2.5rem, 1.571rem + 3.81vw, 5rem);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: clamp(2.5rem, 1.571rem + 3.81vw, 5rem);
+}
+.signup {
+  position: relative;
+}
+.signup-img-abs {
+  position: absolute;
+  bottom: -185px;
+  right: 0;
+}

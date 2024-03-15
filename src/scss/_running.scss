@@ -1,0 +1,26 @@
+.running__item {
+  margin-right: 20px;
+  padding: 16px clamp(1.563rem, 1.214rem + 1.429vw, 2.5rem);
+  border: 1px solid #fff;
+  border-radius: 40px 40px 40px 40px;
+  background-color: transparent;
+  color: #fff;
+  font-size: clamp(1rem, 0.907rem + 0.381vw, 1.25rem);
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+}
+.running__string {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.running {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: clamp(2.5rem, 1.107rem + 5.714vw, 6.25rem);
+}
